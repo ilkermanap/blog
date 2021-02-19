@@ -40,6 +40,7 @@ istediğimiz uygulamaları bize sağlayacak bir ortam oluşturacağız.
 -----------------
 
 Cloud/Internet:
+***************
 
 Bu modelde işletim sistemi bütünüyle hafızada çalışmaktadır. Bu çalışma türünde, internetten
 çekilen paketler sadece o çalışma süresince kullanılabilir. Bir sonraki sistem açılışında yeniden
@@ -173,7 +174,3 @@ Değiştirilmiş sistemimizin bulunduğu yeni iso dosyasını yaratmak için aş
    -boot-info-table -b boot/isolinux/isolinux.bin \
    -c boot/isolinux/boot.cat -o TC-remastered.iso newiso
 
-Bu aşamadan sonra, oluşturulan yeni iso dosyası usb bellek üzerine kopyalanır. Bellek üzerinde
-bulunacak olan sanal makina uygulaması kullanılarak, iso dosyasından sanal makinenin başlatılması
-sağlanır. Sanal makine çalıştığında, eklemiş olduğumuz paketler ve yapmış olduğumuz
-değişikliklerin sistem üzerinde olduğunu görürüz.
